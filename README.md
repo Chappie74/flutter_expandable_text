@@ -66,3 +66,13 @@ ExpandableText(
 | `onLinkPressed` |                                                      Callback function when a link is pressed. Returns a boolean `true` is expanded and `false` is collapsed                                                       |     **No**     |             `null`              |
 
 ---
+
+<br>
+
+## Contributions
+
+Feel free to contribute to this project.
+
+If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue](https://github.com/Chappie74/flutter_expandable_text/issues).
+
+If you fixed a bug or implemented a new feature, please send a [pull request](https://github.com/Chappie74/flutter_expandable_text/pulls).
