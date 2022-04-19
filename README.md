@@ -1,4 +1,4 @@
-# Flutter Expandable Text
+[# Flutter Expandable Text](https://pub.dev/packages/flutter_expandable_text)
 
 <h3>A customisable flutter package that allows the expanding and collapsing of long text.</h3>
 
