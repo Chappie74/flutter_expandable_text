@@ -1,10 +1,10 @@
-[# Flutter Expandable Text](https://pub.dev/packages/flutter_expandable_text)
+#Flutter Expandable Text 
 
-<h3>A customisable flutter package that allows the expanding and collapsing of long text.</h3>
+<h3>A customisable flutter package that allows the expanding and collapsing of long text. </h3>
 
 <br>
 
-## Getting Started
+## Getting Started [pub.dev](https://pub.dev/packages/flutter_expandable_text)
 
 Add package to your pubspec.yaml file
 
