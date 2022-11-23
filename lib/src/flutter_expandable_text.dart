@@ -24,6 +24,8 @@ class ExpandableText extends StatefulWidget {
   /// [TextStyle] for [text]
   final TextStyle? style;
 
+  final double? textScaleFactor;
+
   /// For [TrimType.lines] this represents the maximum amount of lines allowable
   /// before the text is collapsed
   ///
@@ -49,6 +51,7 @@ class ExpandableText extends StatefulWidget {
     this.readLessText = 'read less',
     this.readMoreText = 'read more',
     this.linkTextStyle,
+    this.textScaleFactor,
     this.style,
     this.trim = 2,
     this.trimType = TrimType.lines,
@@ -103,6 +106,10 @@ class _ExpandableTextState extends State<ExpandableText> {
       text: _isExpanded ? '  ' : '... ',
       style: _text.style,
     );
+
+    final textScaleFactor =
+        widget.textScaleFactor ?? MediaQuery.textScaleFactorOf(context);
+
     return LayoutBuilder(
       builder: ((context, constraints) {
         assert(
@@ -187,6 +194,7 @@ class _ExpandableTextState extends State<ExpandableText> {
 
         return RichText(
           text: textSpan,
+          textScaleFactor: textScaleFactor,
         );
       }),
     );
